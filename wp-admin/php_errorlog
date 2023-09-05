@@ -1,0 +1,48 @@
+[27-Mar-2023 12:32:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/themes/ermis/functions.php:1) in /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-admin/includes/misc.php on line 1416
+[27-Mar-2023 12:32:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/themes/ermis/functions.php:1) in /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-admin/includes/misc.php on line 1416
+[27-Mar-2023 12:32:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/themes/ermis/functions.php:1) in /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-admin/includes/misc.php on line 1416
+[27-Mar-2023 12:32:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/themes/ermis/functions.php:1) in /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-admin/includes/misc.php on line 1416
+[27-Mar-2023 12:32:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/themes/ermis/functions.php:1) in /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-admin/includes/misc.php on line 1416
+[27-Mar-2023 12:32:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/themes/ermis/functions.php:1) in /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-admin/includes/misc.php on line 1416
+[27-Mar-2023 13:42:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/themes/ermis/inc/custom-shortcodes.php:1) in /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-admin/admin-ajax.php on line 27
+[27-Mar-2023 13:42:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/themes/ermis/inc/custom-shortcodes.php:1) in /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-admin/includes/misc.php on line 1416
+[03-Apr-2023 12:21:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function acf_update_setting() in /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/plugins/advanced-custom-fields-pro/includes/local-json.php:31
+Stack trace:
+#0 /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/plugins/advanced-custom-fields-pro/includes/acf-utility-functions.php(23): ACF_Local_JSON->__construct()
+#1 /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/plugins/advanced-custom-fields-pro/includes/local-json.php(280): acf_new_instance('ACF_Local_JSON')
+#2 /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/plugins/advanced-custom-fields-pro/includes/acf-utility-functions.php(156): include_once('/home/customer/...')
+#3 /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/plugins/advanced-custom-fields-pro/acf.php(165): acf_include('includes/local-...')
+#4 /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/plugins/advanced-custom-fields-pro/a in /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/plugins/advanced-custom-fields-pro/includes/local-json.php on line 31
+[03-Apr-2023 12:21:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function acf_update_setting() in /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/plugins/advanced-custom-fields-pro/includes/local-json.php:31
+Stack trace:
+#0 /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/plugins/advanced-custom-fields-pro/includes/acf-utility-functions.php(23): ACF_Local_JSON->__construct()
+#1 /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/plugins/advanced-custom-fields-pro/includes/local-json.php(280): acf_new_instance('ACF_Local_JSON')
+#2 /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/plugins/advanced-custom-fields-pro/includes/acf-utility-functions.php(156): include_once('/home/customer/...')
+#3 /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/plugins/advanced-custom-fields-pro/acf.php(165): acf_include('includes/local-...')
+#4 /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/plugins/advanced-custom-fields-pro/a in /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/plugins/advanced-custom-fields-pro/includes/local-json.php on line 31
+[03-Apr-2023 12:22:12 UTC] PHP Fatal error:  Uncaught Error: Class 'ACF_Rest_Api' not found in /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/plugins/advanced-custom-fields-pro/includes/acf-utility-functions.php:23
+Stack trace:
+#0 /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/plugins/advanced-custom-fields-pro/includes/rest-api.php(14): acf_new_instance('ACF_Rest_Api')
+#1 /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/plugins/advanced-custom-fields-pro/includes/acf-utility-functions.php(156): include_once('/home/customer/...')
+#2 /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/plugins/advanced-custom-fields-pro/acf.php(172): acf_include('includes/rest-a...')
+#3 /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/plugins/advanced-custom-fields-pro/acf.php(719): ACF->initialize()
+#4 /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/plugins/advanced-custom-fields-pro/acf.php(725): acf()
+#5 /home/customer/www/projects in /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/plugins/advanced-custom-fields-pro/includes/acf-utility-functions.php on line 23
+[03-Apr-2023 12:22:24 UTC] PHP Fatal error:  Uncaught Error: Class 'ACF_Rest_Api' not found in /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/plugins/advanced-custom-fields-pro/includes/acf-utility-functions.php:23
+Stack trace:
+#0 /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/plugins/advanced-custom-fields-pro/includes/rest-api.php(14): acf_new_instance('ACF_Rest_Api')
+#1 /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/plugins/advanced-custom-fields-pro/includes/acf-utility-functions.php(156): include_once('/home/customer/...')
+#2 /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/plugins/advanced-custom-fields-pro/acf.php(172): acf_include('includes/rest-a...')
+#3 /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/plugins/advanced-custom-fields-pro/acf.php(719): ACF->initialize()
+#4 /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/plugins/advanced-custom-fields-pro/acf.php(725): acf()
+#5 /home/customer/www/projects in /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/plugins/advanced-custom-fields-pro/includes/acf-utility-functions.php on line 23
+[09-May-2023 11:03:15 UTC] PHP Parse error:  syntax error, unexpected 'acf_add_options_page' (T_STRING) in /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/themes/ermis/functions.php on line 19
+[09-May-2023 11:03:53 UTC] PHP Parse error:  syntax error, unexpected 'acf_add_options_page' (T_STRING) in /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/themes/ermis/functions.php on line 19
+[09-May-2023 11:03:54 UTC] PHP Parse error:  syntax error, unexpected 'acf_add_options_page' (T_STRING) in /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/themes/ermis/functions.php on line 19
+[09-May-2023 11:03:54 UTC] PHP Parse error:  syntax error, unexpected 'acf_add_options_page' (T_STRING) in /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/themes/ermis/functions.php on line 19
+[09-May-2023 11:03:55 UTC] PHP Parse error:  syntax error, unexpected 'acf_add_options_page' (T_STRING) in /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/themes/ermis/functions.php on line 19
+[09-May-2023 11:03:55 UTC] PHP Parse error:  syntax error, unexpected 'acf_add_options_page' (T_STRING) in /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/themes/ermis/functions.php on line 19
+[09-May-2023 11:04:02 UTC] PHP Parse error:  syntax error, unexpected 'acf_add_options_page' (T_STRING) in /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/themes/ermis/functions.php on line 19
+[09-May-2023 11:04:02 UTC] PHP Parse error:  syntax error, unexpected 'acf_add_options_page' (T_STRING) in /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/themes/ermis/functions.php on line 19
+[11-May-2023 08:44:43 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/themes/ermis/functions.php on line 330
+[11-May-2023 08:44:43 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/customer/www/projects.wildwildweb.gr/public_html/ermis/wp-content/themes/ermis/functions.php on line 330
